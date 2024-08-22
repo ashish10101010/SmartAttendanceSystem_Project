@@ -4,15 +4,15 @@ The Smart Attendance System is an intelligent application designed to automate t
 # Commands
 To run the app locally, use the following command :-
 
-To add face to dataset and face will be recorded via webcaam.
+1)To add face to dataset and face will be recorded via webcaam.
 ```
 python Add_faces.py
 ```
-To record attendance of added face , press 'o' to record attendance and it will create csv file corresponding to date present , name and timestamp will be recorded.
+2)To record attendance of added face , press 'o' to record attendance and it will create csv file corresponding to date present , name and timestamp will be recorded.
 ```
 python test.py
 ```
-The attendance will be displayed here and can be downloaded in csv format.
+3)The attendance will be displayed here and can be downloaded in csv format.
 ```
 streamlit run app.py
 ```
